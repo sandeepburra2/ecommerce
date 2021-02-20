@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'inevitable.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dc7gt1758qjhl4',
-        'USER' : 'elpwbneewgiygn',
-        'PASSWORD' : 'd408bd1404707b0bf2224910678cec7d79cbc6432f3f9eaf20c074047ecb8046',
-        'HOST' : 'ec2-3-222-11-129.compute-1.amazonaws.com'
+        'NAME': 'dcehv5oi03vjdg',
+        'USER' : 'kxlquycgyrelnc',
+        'PASSWORD' : '8653761a229bb9f4389412089b008710f26c7e4dab6b9a442c5700881a492775',
+        'HOST' : 'ec2-18-204-74-74.compute-1.amazonaws.com'
           }
     
     
@@ -141,8 +141,7 @@ MEDIA_URL = '/pics/'
 MEDIA_ROOT =os.path.join(BASE_DIR, 'pics')
 
 #S3 BUCKETS CONFIG
-AWS_ACCESS_KEY_ID = 'AKIAXSSKRJNKSEOL3MHW'
-AWS_SECRET_ACCESS_KEY = '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'
+
 AWS_STORAGE_BUCKET_NAME = 'sandeepfileuploads'
 AWS_S3_REGION_NAME = 'us-east-2'
 AWS_S3_FILE_OVERWRITE = False
